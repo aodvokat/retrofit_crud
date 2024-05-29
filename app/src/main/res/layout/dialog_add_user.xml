@@ -1,0 +1,47 @@
+itial <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        tools:ignore="SpeakableTextPresentCheck, TouchTargetSizeCheck"
+        android:autofillHints=""/>
+
+    <EditText
+        android:id="@+id/editTextNim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIM"
+        tools:ignore="SpeakableTextPresentCheck, TouchTargetSizeCheck"
+        android:autofillHints=""/>
+
+    <EditText
+        android:id="@+id/editTextProdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prodi"
+        tools:ignore="SpeakableTextPresentCheck, TouchTargetSizeCheck"
+        android:autofillHints=""/>
+
+    <EditText
+        android:id="@+id/editTextSemester"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Semester"
+        tools:ignore="SpeakableTextPresentCheck, TouchTargetSizeCheck"
+        android:autofillHints=""/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+        android:autofillHints=""/>
+</LinearLayout>
